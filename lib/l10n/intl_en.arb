@@ -1,0 +1,14 @@
+{
+  "Email_form_field": "Email",
+  "Email_validator_form_field": "mohamedtamer25@gmail.com",
+  "Email_hint_form_field": "mohamedtamer25@gmail.com",
+  "Name_form_field": "Name",
+  "Name_validator_form_field": "mohamedtamer25@gmail.com",
+  "Name_hint_form_field": "mohamed tamer",
+  "Password_form_field": "Password",
+  "Password_hint_form_field": "**********",
+  "Password_validator_form_field": "Password",
+  "Login_button": "Login",
+  "SignUp_button": "Sign Up",
+  "google_register_button": "Continue with Google"
+}

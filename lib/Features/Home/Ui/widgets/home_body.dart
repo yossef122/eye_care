@@ -50,68 +50,77 @@ class HomeBody extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.grey[200]!,
-                          width: 1,
+                    GestureDetector(
+                      onTap: () {},
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[200]!,
+                            width: 1,
+                          ),
+                          borderRadius: BorderRadius.circular(
+                            20,
+                          ),
                         ),
-                        borderRadius: BorderRadius.circular(
-                          20,
-                        ),
-                      ),
-                      child: CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 20.w,
-                        child: SvgPicture.asset(
-                          "assets/Svgs/gallery-send-svgrepo-com.svg",
-                          height: 17.w,
-                          width: 17.w,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 10,
-                    ),
-                    Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.grey[200]!,
-                          width: 1,
-                        ),
-                        borderRadius: BorderRadius.circular(
-                          50,
-                        ),
-                      ),
-                      child: CircleAvatar(
-                        radius: 30.w,
-                        backgroundColor: Colors.white,
-                        child: SvgPicture.asset(
-                          "assets/Svgs/camera-add-svgrepo-com.svg",
-                          height: 30.w,
-                          width: 30.w,
+                        child: CircleAvatar(
+                          backgroundColor: Colors.white,
+                          radius: 20.w,
+                          child: SvgPicture.asset(
+                            "assets/Svgs/gallery-send-svgrepo-com.svg",
+                            height: 17.w,
+                            width: 17.w,
+                          ),
                         ),
                       ),
                     ),
                     const SizedBox(
                       width: 10,
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(
-                          color: Colors.grey[200]!,
-                          width: 1,
+                    GestureDetector(
+                      onTap: () {},
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[200]!,
+                            width: 1,
+                          ),
+                          borderRadius: BorderRadius.circular(
+                            50,
+                          ),
                         ),
-                        borderRadius: BorderRadius.circular(
-                          20,
+                        child: CircleAvatar(
+                          radius: 30.w,
+                          backgroundColor: Colors.white,
+                          child: SvgPicture.asset(
+                            "assets/Svgs/camera-add-svgrepo-com.svg",
+                            height: 30.w,
+                            width: 30.w,
+                          ),
                         ),
                       ),
-                      child: CircleAvatar(
-                        backgroundColor: Colors.white,
-                        child: SvgPicture.asset(
-                          "assets/Svgs/restore-svgrepo-com.svg",
-                          height: 17.w,
-                          width: 17.w,
+                    ),
+                    const SizedBox(
+                      width: 10,
+                    ),
+                    GestureDetector(
+                      onTap: () {},
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.grey[200]!,
+                            width: 1,
+                          ),
+                          borderRadius: BorderRadius.circular(
+                            20,
+                          ),
+                        ),
+                        child: CircleAvatar(
+                          backgroundColor: Colors.white,
+                          child: SvgPicture.asset(
+                            "assets/Svgs/restore-svgrepo-com.svg",
+                            height: 17.w,
+                            width: 17.w,
+                          ),
                         ),
                       ),
                     ),
